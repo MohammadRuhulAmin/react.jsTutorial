@@ -13,12 +13,11 @@ export class Abba extends Component {
             permanent:'Rajshahi',     
         }
         this.showInformation = this.showInformation.bind(this);
-        
     }
-
    showInformation(child){
        alert(`${this.state.father}  ${this.state.occupation } ${this.state.location} child ${child}` )
    }
+   
     
 
     render() {
@@ -30,4 +29,4 @@ export class Abba extends Component {
     }
 }
 
-export default Abba
+export default Abba;

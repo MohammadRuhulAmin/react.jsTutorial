@@ -26,10 +26,28 @@ import  BindingEvent from './components/BindingEvent';
 import Ebinding from './components/Ebinding';
 import ParentComponent  from './components/ParentComponent';
 import Abba from './components/Abba';
+import UserGreeting from './components/UserGreeting';
+import ConditionalRendering from './components/ConditionalRendering';
+import NameList from './components/NameList';
+import EmployeeList from './components/EmployeeList';
+import UserList from './components/UserList';
+import FriendList from './components/FriendList';
+import TechnicianList from './components/TechnicianList';
+import ProgrammerList from './components/ProgrammerList';
+
 
 function App() {
   return (
+
     <div className="App">
+     
+      <ProgrammerList/>
+      
+      {/* <UserList/>
+      <EmployeeList/>
+      <NameList/>
+      <ConditionalRendering/>
+      <UserGreeting/>
       <Abba/>
      <ParentComponent/>
       <Ebinding/>
@@ -39,7 +57,7 @@ function App() {
       <FunctionClick />
       <Propclass userName="ruhul amin" userEmail ="ruhulamin@gmail.com" />
       <Userinfo name="Ruhul Amin" email="ruhul@gmail.com" contact="012222" />
-      <Products/>
+      <Products/> */}
       {/* <StopWatch/> */}
       {/* <Counter/> */}
       {/* <Team/> */}
